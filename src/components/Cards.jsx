@@ -9,10 +9,13 @@ const Cards = ({item}) => {
                 <h1 className='font-semibold text-xl mb-2'>{item.title}</h1>
                 <p>{item.desc}</p>
                 <div className='flex gap-3 mt-4'> 
-                    <button className='bg-red-500 text-white px-3 py-2 rounded-md'><a href="https://spicybites.netlify.app/" target='_blank'>Live Preview</a></button>                   
-                    <button className='bg-black text-white px-3 py-2 flex gap-1 rounded-md'>
+                    <button className='bg-red-500 text-white px-3 py-2 rounded-md'><a href={item.live} target='_blank'>Live Preview</a></button>                   
+                    <button className='bg-black text-white px-3 py-2  rounded-md'>
+                        <a href={item.github} target='_blank' className='flex gap-1'>
                         <img src={Github} alt="" className='w-6' />
-                        Github Link</button>
+                        Github Link
+                        </a>
+                        </button>
                 </div>
             </div>
 
