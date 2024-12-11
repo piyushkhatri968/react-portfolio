@@ -7,8 +7,6 @@ import linkedin from '../assets/linkedin.png'
 import reactlogo from '../assets/React.png'
 import Redux from '../assets/Redux.png'
 import tailwind from '../assets/Tailwind Css.png'
-// import herobg from '../assets/herobg.jpg'
-// import herobg1 from '../assets/herobg1.jpg'
 
 
 
@@ -17,12 +15,6 @@ const Hero = () => {
     <>
     
     <section
-      // style={{
-      //   backgroundImage: `url(${herobg1})`,
-      //   backgroundPosition: 'center',
-      //   backgroundSize: 'cover',
-      //   backgroundRepeat: 'no-repeat',
-      // }}
       
       className=' relative ' >    
        
